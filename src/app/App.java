@@ -18,18 +18,16 @@ public class App {
                 }else{
                     System.out.print(" ");
                 }
-                if(i==(V+i)-V && j == V + i || i==(V+i)-V && j == (V+6)-i   ){
+                if(i==(V+i)-V && j == V + i || i==(V+i)-V && j == (V+6)-i){
                     System.out.print('V');
                 }else{
                     System.out.print(" ");
                 }
-                if(i==(A2+i)-A2 && j == (A2+3)-i || i ==(A2+i)-A2 && j == A2+3+i || i == 2 && j >=25 && j<=27 ){
+                if(i==(A2+i)-A2 && j == (A2+3)-i || i==(A2+i)-A2 && j==A2+3+i || i == 2 && j >=25 && j<=27){
                     System.out.print('A');
                 }else{
                     System.out.print(" ");
-                }
-               
-                
+                }   
             }
             System.out.println();
         }
